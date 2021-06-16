@@ -1,15 +1,19 @@
 import React from "react";
-import Home from "./pages/Homepage";
-import About from "./pages/About";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Gallery from "./pages/Gallery";
+import Header from "./components/Header";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import About from "./pages/About";
 import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Router>
       <Header />
+      <Nav />
       <div>
-        <Nav />
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
         <Route exact path="/about" component={About} />
