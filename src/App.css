@@ -17,7 +17,7 @@
 }
 
 body {
-  background-image: url("starryskies_01.jfif"); /*image from https://unsplash.com/ by Mark Basarab*/
+  background-image: url("../src/images/starryskies_01.jfif"); /*image from https://unsplash.com/ by Mark Basarab*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
