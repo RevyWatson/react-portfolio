@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} 
+
+from "react-router-dom";
 import Gallery from "./pages/Gallery";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
@@ -14,13 +20,20 @@ function App() {
     <Router>
       <Header />
       <Nav />
-      <div>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/gallery" component={Gallery} />
-        <Route exact path="/contact" component={Contact} />
-      </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/about">
+          <About />
+        </Route>
+        <Route exact path="/gallery">
+          <Gallery />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
       <Footer />
     </Router>
   );

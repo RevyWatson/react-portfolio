@@ -3,8 +3,8 @@ import "./style.css";
 
 function Header() {
     return (
-        <div class="container-fluid text-center">
-            <header class="p-3">
+        <div className="container-fluid text-center">
+            <header className="p-3">
                 <div>
                     <h1>
                         Alissa Garzoni

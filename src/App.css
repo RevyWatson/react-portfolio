@@ -35,11 +35,11 @@ h3 {
   font-weight: bold;
 }
 
-li {
+/* li {
   list-style: none;
   font-size: 25px;
   font-weight: bold;
-}
+} */
 
 p,
 article {
@@ -52,12 +52,12 @@ a:hover {
   text-decoration: none;
 }
 
-nav {
+/* nav {
   padding: 10px;
   background-color: var(--backgroundColor);
   border-top: solid 4px var(--borders);
   border-bottom: solid 4px var(--borders);
-}
+} */
 
 section {
   margin-top: 35px;
