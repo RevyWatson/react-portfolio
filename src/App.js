@@ -21,7 +21,7 @@ function App() {
       <Header />
       <Nav />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/home">
           <Home />
         </Route>
         <Route exact path="/about">
