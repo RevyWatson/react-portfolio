@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
     return (
-        <div className="container-fluid text-center p-5">
-            <div className="row">
+        <div className="container-fluid text-center">
+            <div className="row mt-5 mb-3">
                 <footer className="p-4 col-lg-12">
                     Created with <i className="far fa-heart"></i> by Alissa Garzoni
                 </footer>

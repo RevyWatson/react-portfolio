@@ -10,7 +10,7 @@ function About() {
                     </h3>
                 </div>
                 <div className="col-lg-4 col-12-sm p-4 float-start text-center">
-                    <img src="../images/selfportrait.jpg" className="img-fluid p-1" id="portrait"></img>
+                    <img src="./images/selfportrait.jpg" className="img-fluid p-1" id="portrait"></img>
                 </div>
                 <div className="col-lg-8 col-12-sm p-4">
                     <article>
