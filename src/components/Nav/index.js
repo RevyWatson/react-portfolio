@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Nav() {
@@ -7,22 +8,22 @@ function Nav() {
             <nav className="row">
                 <div className="col-sm">
                     <li className="p-2">
-                        <a href="/home">Home</a>
+                        <Link to="/home">Home</Link>
                     </li>
                 </div>
                 <div className="col-sm">
                     <li className="p-2">
-                        <a href="/about">About Alissa</a>
+                        <Link to="/about">About Alissa</Link>
                     </li>
                 </div>
                 <div className="col-sm">
                     <li className="p-2">
-                        <a href="/gallery">Portfolio Gallery</a>
+                        <Link to="/gallery">Portfolio Gallery</Link>
                     </li>
                 </div>
                 <div className="col-sm">
                     <li className="p-2">
-                        <a href="/contact">Contact Info</a>
+                        <Link to="/contact">Contact Info</Link>
                     </li>
                 </div>
             </nav>
