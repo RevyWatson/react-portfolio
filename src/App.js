@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-}
-
-  from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Gallery from "./pages/Projects";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
